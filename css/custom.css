@@ -29,6 +29,8 @@ body {
     background-size: cover;
     overflow: hidden;
   color: white;
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
 }
 .intro {
   margin-top: 190px;
@@ -36,6 +38,16 @@ body {
 }
 .btn-primary {
   border-radius: 50% !important;
-  background-color: black !important;
-  border: 0px;
+  background-color: transparent !important;
+  border: 1px solid white;
+}
+.well {
+  margin-top: 0px !important;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+p {
+  font-size: 22px;
 }
