@@ -31,7 +31,7 @@
 				</div>	
 			</div>
 	</nav>
-  <!--home-->
+  <!--home section-->
   <div class="container-fluid" id="home">
    <div class="row">
      <div class="col-lg-12 jumbotron img-responsive">
@@ -43,7 +43,7 @@
      </div>
    </div>
   </div>
-  <!--About-->
+  <!--About section-->
   <div class="container-fluid" id="about">
     <div class="row">
       <div class="col-lg-12 well">
@@ -188,6 +188,24 @@
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/custom.js"></script>
+    <script>
+    $(document).ready(function(){
+    $(".navbar-brand").addClass("animated zoomIn");
+    $(".underscore").addClass("animated flash");
+    $(".btn-primary").addClass("animated bounce");
+
+    $("[rel='tooltip']").tooltip();    
+   
+      $('.thumb').hover(
+          function(){
+              $(this).find('.caption').slideDown(250); //.slideDown(250)
+          },
+          function(){
+              $(this).find('.caption').slideUp(250); //.slideUp(250)
+          }
+      ); 
+  });
+    </script>
 
 </body>
 </html>
