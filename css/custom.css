@@ -98,3 +98,61 @@ p {
     border-radius: 0px !important;
     border: 0px !important;
   }
+  .input-group {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  form {
+    text-align: center !important;
+    display: inherit !important;
+    color: white !important;
+  }
+  .btn-default {
+    width: 200px !important;
+    height: 60px !important;
+    background-color: black !important;
+    border-radius: 0px !important;
+    border: 0px;
+    margin: 0px auto !important;
+  }
+  #cont .well {
+    background-color: white !important;
+    margin-top: 20px !important;
+  }
+  .input-group-addon {
+    background-color: black !important;
+    color: white !important;
+  }
+   #map {
+        width: 500px;
+        height: 312px;
+      }
+  #follow .well {
+    background-color: white !important;
+    color: black !important;
+  }
+  .fa-paper-plane {
+    color: white !important;
+  }
+  .fa-facebook,.fa-twitter,.fa-google-plus,.fa-codepen,.fa-linkedin,.fa-github {
+    color: black !important;
+  }
+  .fa-facebook:hover {
+    color: rgb(0, 0, 128) !important;
+  }
+  .fa-twitter:hover {
+    color: rgb(77, 183, 255) !important;
+  }
+  .fa-google-plus:hover {
+    color: rgb(255, 91, 51) !important;
+  }
+  .fa-linkedin:hover {
+    color: rgb(0, 0, 128) !important;
+  }
+  .foot {
+    color: black !important;
+  }
+  .font-sm {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
